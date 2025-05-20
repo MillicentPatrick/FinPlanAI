@@ -20,7 +20,7 @@ def simulate_growth(initial, growth_rate, div_yield, years, reinvest=True):
 
 
 def render(df):
-    st.header("📈 Dividends & Reinvestment Simulation")
+    st.header(" Dividends & Reinvestment Simulation")
 
     if df is None or df.empty:
         st.warning("No data available.")
@@ -39,7 +39,7 @@ def render(df):
 
 
 def run_projection_simulation(df):
-    st.subheader("📊 Simulated Dividend Projection")
+    st.subheader(" Simulated Dividend Projection")
 
     for _, row in df.iterrows():
         asset = row["Asset"]
@@ -81,7 +81,7 @@ def run_projection_simulation(df):
 
 
 def run_historical_dividend_view(df):
-    st.subheader("📘 Historical Dividend Records")
+    st.subheader(" Historical Dividend Records")
 
     df["Date"] = pd.to_datetime(df["Date"])
     df["Amount"] = pd.to_numeric(df["Amount"], errors="coerce")
