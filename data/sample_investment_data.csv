@@ -1,0 +1,5 @@
+Asset,Category,Type,Amount Invested,Return,Start Date,End Date
+Stock A,Equity,Investment,1000,1200,2023-01-01,2023-12-31
+Bond B,Fixed Income,Investment,2000,2100,2023-01-01,2023-12-31
+Real Estate,Property,Investment,5000,5500,2022-01-01,2024-01-01
+ETF C,Equity,Investment,1500,1800,2023-06-01,2024-06-01
